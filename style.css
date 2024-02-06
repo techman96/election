@@ -1,0 +1,43 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+table{
+  margin:50px auto;
+}
+th{
+  background-color: red;
+  font-size: 1.6em;
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+td{
+  padding: 10px;
+  font-size: 1.2em;
+}
+td:nth-child(){
+  background-color: blue;
+}
+th, td{
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+      th{
+          background-color: red;
+          font-size: 3em;
+          padding: 10px 20px;
+          font-weight: bolder;
+      }
+      td{
+          padding: 10px;
+          font-size: 1.5em;
+      }
+}
+}
